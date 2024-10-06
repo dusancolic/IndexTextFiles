@@ -18,6 +18,40 @@ public class Main {
 
        The result should be provided as a link to the repository with code on GitHub.*/
 
+
+    /* usage example:
+    Options: [1] Index files, [2] Search word, [0] Exit
+    1
+
+    Enter file/s (if you want to enter multiple files, split them with ',') or directory path:
+       C:\Users\User\Desktop\IndexTextFiles\src\main\resources\1.txt
+
+    Indexing file: 1.txt
+
+    Options: [1] Index files, [2] Search word, [0] Exit
+    1
+
+    Enter file/s (if you want to enter multiple files, split them with ',') or directory path:
+       C:\Users\User\Desktop\IndexTextFiles\src\main\resources\2.txt, C:\Users\User\Desktop\IndexTextFiles\src\main\resources\3.txt
+
+    Indexing file: 2.txt
+    Indexing file: 3.txt
+
+    Options: [1] Index files, [2] Search word, [0] Exit
+    2
+
+    Enter word to search:
+    word
+
+    Files containing "words":
+    C:\Users\User\Desktop\IndexTextFiles\src\main\resources\2.txt
+
+    Options: [1] Index files, [2] Search word, [0] Exit
+    0
+     */
+
+
+
     private final FileIndexer fileIndexer;
 
     public Main() {
