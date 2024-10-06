@@ -1,0 +1,3 @@
+Programming languages are used to create software that runs on computers.
+Java is a popular programming language, known for its portability and robustness.
+Developers use Java to build applications for different platforms.
